@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+
+--cgd-bg-primary: #e5e5e5;
+
+
+--cgd-font-primary: #0A3871;
+--cgd-font-secundary: #343A40;
+--cgd-font-tertiary: #495057;
+--cgd-font-quartenary: #fff;
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    background-color: var(--cgd-bg-primary);
+    padding: 0 16px;
+}
+
+header {
+    padding: 16px 0;
+}
+
+
+
+
+.cgd-container-input {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cgd-container-input textarea {
+    border: none;
+    background-color: var(--cgd-bg-primary);
+    font-size: 34px;
+    color: var(--cgd-font-primary);
+    width: 100%;
+    margin: 56px auto;
+    outline: none;
+    resize: none;
+
+}
+
+.cgd-container-input textarea::placeholder{
+    color: var(--cgd-font-primary);
+}
+
+.cgd-container-exclamation {
+    display: flex;
+    margin-bottom: 16px
+}
+
+.cgd-container-exclamation p {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.cgd-container-btn  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cgd-container-btn button {
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cgd-btn-blue {
+    background-color: var(--cgd-font-primary);
+    color: var(--cgd-font-quartenary);
+    margin-bottom: 24px;
+    border: none;
+}
+
+.cgd-btn-white {
+    border: 1px solid var(--cgd-font-primary);
+    color: var(--cgd-font-primary);
+}
+
+
+.cgd-container-card {
+    background-color: #fff;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    margin: 64px 0 40px 0;
+}
+
+.cgd-content-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cgd-content-card {
+    text-align: center;
+    padding: 32px;
+}
+
+.cgd-content-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--cgd-font-secundary);
+}
+
+.cgd-content-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cgd-font-tertiary);
+}
+
+.cgd-texts-card textarea {
+    border: none;
+    background-color: var(--cgd-font-quartenary);
+    font-size: 34px;
+    color: var(--cgd-font-primary);
+    width: 100%;
+    outline: none;
+    resize: none;
+}
+
+
+@media(max-width: 992px) {
+    .cgd-content-card img {
+        display: none;
+    }
+}
+
+@media(min-width: px) {
+
+}
+
