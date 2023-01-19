@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,34 +10,33 @@
 </head>
 <body>
     <header>
-        <img src="./assets/imageA.svg" alt="Alura">
+        <img class="logo-alura" src="./assets/imageA.svg" alt="Logo da alura">
     </header>
     <main>
-        <section>
-            <div class="cgd-container-input">
-                <textarea cols='120' rows='8' placeholder="Digite seu texto"></textarea>
-                <div class="cgd-container-exclamation">
-                    <img src="assets/exclamation.svg" alt="exclamation">
-                    <p>Apenas letras minúsculas e sem acento.</p>
-                </div>
-                <div class="cgd-container-btn">
-                   <button class="cgd-btn-blue">Criptografar</button>
-                   <button class="cgd-btn-white">Descriptografar</button> 
-                </div>
+        <section id="section-text">
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="info">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
             </div>
-            
-            <div class="cgd-container-card">
-                <div class="cgd-content-card">
-                    <img src="/assets/imageBoneco.svg" alt="">
-                    <div class="cgd-texts-card">
-                     <!--   <h3>Nenhuma mensagem encontrada</h3>
-                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p> -->
-                        <textarea cols='120' rows='8' placeholder="Digite seu texto"></textarea>
-                        <button class="cgd-btn-white">Descriptografar</button>
-                    </div>
-                </div>
+
+            <div class="container-btn">
+                <button class="btn-encriptar">Criptografar</button>
+                <button class="btn-desencriptar">Descriptografar</button>
             </div>
         </section>
+
+        <section id="section-mensagem">
+            <textarea class="mensagem" cols="20" rows="10" ></textarea>
+           
+            <div class="notification">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            
+            <button class="btn-copy">Copiar</button>
+        </section>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>

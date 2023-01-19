@@ -3,11 +3,12 @@
 :root {
 
 --cgd-bg-primary: #e5e5e5;
-
+--cgd-bg-segundary: #D8DFE8;
 
 --cgd-font-primary: #0A3871;
 --cgd-font-secundary: #343A40;
 --cgd-font-tertiary: #495057;
+
 --cgd-font-quartenary: #fff;
 
 
@@ -19,128 +20,137 @@
     margin: 0;
     padding: 0;
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif
 }
 
-html{
+html, body {
     background-color: var(--cgd-bg-primary);
-    padding: 0 16px;
+    margin-right: 40px;
 }
 
-header {
-    padding: 16px 0;
+.logo-alura {
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 10px;
 }
 
-
-
-
-.cgd-container-input {
+main {
+    display: flex;
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.cgd-container-input textarea {
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#section-text {
+   
+}
+
+.text-area {
     border: none;
     background-color: var(--cgd-bg-primary);
-    font-size: 34px;
     color: var(--cgd-font-primary);
-    width: 100%;
-    margin: 56px auto;
-    outline: none;
+    margin-top: 90px;
+    width: 680px;
+    height: 635px;
+    font-size: 32px;
     resize: none;
-
 }
 
-.cgd-container-input textarea::placeholder{
+::placeholder {
     color: var(--cgd-font-primary);
+    font-size: 32px;
+    
+} 
+
+.text-area:focus {
+    outline: none;
 }
 
-.cgd-container-exclamation {
-    display: flex;
-    margin-bottom: 16px
+#section-mensagem {
+  
 }
 
-.cgd-container-exclamation p {
-    margin-left: 5px;
-    font-size: 12px;
-}
 
-.cgd-container-btn  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.cgd-container-btn button {
+.mensagem {
+    background: var(--cgd-font-quartenary);
+    background-image: url(/assets/imageBoneco.svg);
+    background-position:  top 250px center;
+    background-repeat: no-repeat;
+    border: none;
     border-radius: 24px;
-    padding: 24px;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.cgd-btn-blue {
-    background-color: var(--cgd-font-primary);
-    color: var(--cgd-font-quartenary);
-    margin-bottom: 24px;
-    border: none;
-}
-
-.cgd-btn-white {
-    border: 1px solid var(--cgd-font-primary);
     color: var(--cgd-font-primary);
-}
-
-
-.cgd-container-card {
-    background-color: #fff;
-    border-radius: 32px;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    margin: 64px 0 40px 0;
-}
-
-.cgd-content-card {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.cgd-content-card {
-    text-align: center;
-    padding: 32px;
-}
-
-.cgd-content-card h3 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    color: var(--cgd-font-secundary);
-}
-
-.cgd-content-card p {
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--cgd-font-tertiary);
-}
-
-.cgd-texts-card textarea {
-    border: none;
-    background-color: var(--cgd-font-quartenary);
-    font-size: 34px;
-    color: var(--cgd-font-primary);
-    width: 100%;
-    outline: none;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding: 0 32px;
+    position: absolute;
+    width: 400px;
+    top: 30px;
+    height: 900px;
     resize: none;
+    
+}
+
+.notification{
+    position: absolute;
+    background-color: var(--cgd-font-quartenary);
+    margin-top: 550px;
+    width: 100%;
+    max-width: 336px;
+    margin-left: 130px;
+    text-align: center;
+
+ }
+.mensagem:focus {
+    outline: none;
+}
+
+.container-btn {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: var(--cgd-bg-segundary);
+    border: 1px solid var(--cgd-font-primary);
+    border-radius: 24px;
+    color: var(--cgd-font-primary);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
 }
 
 
-@media(max-width: 992px) {
-    .cgd-content-card img {
-        display: none;
-    }
+.btn-encriptar {
+    background: var(--cgd-font-primary);
+    border: 1px solid var(--cgd-font-primary);
+    border-radius: 24px;
+    color: var(--cgd-font-quartenary);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
 }
 
-@media(min-width: px) {
-
+.btn-copy {
+    background: var(--cgd-bg-segundary);
+    border: 1px solid var(--cgd-font-primary);
+    border-radius: 24px;
+    color: var(--cgd-font-primary);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 130px;
+    margin-top: 760px;
+    position: absolute;
+    width: 336px;
 }
 
+.info {
+    color: var(--cgd-font-tertiary);
+    font-size: 18px;
+}
