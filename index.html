@@ -10,32 +10,38 @@
 </head>
 <body>
     <header>
-        <img class="logo-alura" src="./assets/imageA.svg" alt="Logo da alura">
+        <div class="grid-header">
+            <img class="logo-alura" src="./assets/imageA.svg" alt="Logo da alura">
+        </div>
     </header>
     <main>
-        <section id="section-text">
-            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+        <div id="grid-layout">
+            <section id="section-text">
+                <textarea type="text" class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+    
+                <div class="info">
+                    <img src="assets/exclamation.svg" alt="ponto de esclamação">
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+                </div>
+    
+                <div class="container-btn">
+                    <button  onclick="handlerBtnEncriptarClick()" class="btn-encriptar">Criptografar</button>
+                    <button class="btn-desencriptar">Descriptografar</button>
+                </div>
+            </section>
+    
+            <section id="section-mensagem">
+                <textarea class="mensagem" cols="20" rows="10" ></textarea>
+               
+                <div class="notification">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                
+                <button class="btn-copy">Copiar</button>
+            </section>
+        </div>
 
-            <div class="info">
-                <h6>Apenas letras minúsculas e sem acento.</h6>
-            </div>
-
-            <div class="container-btn">
-                <button class="btn-encriptar">Criptografar</button>
-                <button class="btn-desencriptar">Descriptografar</button>
-            </div>
-        </section>
-
-        <section id="section-mensagem">
-            <textarea class="mensagem" cols="20" rows="10" ></textarea>
-           
-            <div class="notification">
-                <h2>Nenhuma mensagem encontrada</h2>
-                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-            </div>
-            
-            <button class="btn-copy">Copiar</button>
-        </section>
     </main>
     <script src="js/main.js"></script>
 </body>
