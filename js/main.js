@@ -1,19 +1,64 @@
-document.querySelector(".btn-encriptar").addEventListener('click', handlerBtnEncriptarClick);
-document.querySelector(".text-area").addEventListener('keyup', handlerTextAreaKeyUP);
+ const mensagem =  document.querySelector(".mensagem");
+ const textArea = document.querySelector(".text-area");
+ const notification = document.querySelector(".notification");
+ const btnCopy = document.querySelector(".btn-copy")
 
 
-let text;
+function encriptar(stringEncriptada) {
+   
+    let matriz = [["e", "enter"],  ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
 
-function handlerTextAreaKeyUP(event) {
-    text = event.target.value;
+    stringEncriptada = stringEncriptada.toLowerCase();
+    
+    for(let i = 0; i < matriz.length; i++) {
+        if(stringEncriptada.includes(matriz[i][0])) {
+            stringEncriptada = stringEncriptada.replaceAll(matriz[i][0], matriz[i][1]);
+        }
+    }
+    return stringEncriptada;
 }
+
+function descriptar(stringDescriptada) {
+
+    let matriz = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
+
+    stringDescriptada = stringDescriptada.toLowerCase();
+
+    for(let i = 0; i < matriz.length; i++) {
+        if(stringDescriptada.includes(matriz[i][1])) {
+            stringDescriptada = stringDescriptada.replaceAll(matriz[i][1], matriz[i][0]);
+        }
+    }
+    return stringDescriptada;
+}
+
+function handlerBtnDescriptarClick() {
+
+    const text = descriptar(mensagem.value);
+
+    textArea.value = text;
+
+    mensagem.value = "";
+
+    notification.style.display = "block";
+    mensagem.style.backgroundImage = "url(/assets/imageBoneco.svg)";
+
+}
+
 
 function handlerBtnEncriptarClick() {
-    
-    document.querySelector(".mensagem").innerHTML = text;
 
+    const text = encriptar(textArea.value);
+
+    mensagem.value = text;
+
+    textArea.value = "";
+
+    notification.style.display = "none";
+    mensagem.style.backgroundImage = "none";
 
 }
 
 
-console.log(text);
+
+console.table();

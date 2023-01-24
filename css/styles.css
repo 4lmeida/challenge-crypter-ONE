@@ -41,6 +41,10 @@ header {
     width: 100%;
 }
 
+section {
+    
+}
+
 #grid-layout {
     display: flex;
     width: 100%;
@@ -48,7 +52,7 @@ header {
     margin: 0 auto;
 }
 
-#section-text {
+.container-text {
    
 }
 
@@ -73,8 +77,8 @@ header {
     outline: none;
 }
 
-#section-mensagem {
-  
+.container-mensagem {
+  margin: 50px 0; 
 }
 
 
@@ -98,7 +102,7 @@ header {
     
 }
 
-.notification{
+.notification {
     position: absolute;
     background-color: var(--cgd-font-quartenary);
     margin-top: 550px;
@@ -147,7 +151,7 @@ header {
     cursor: pointer;
     height: 67px;
     margin-left: 130px;
-    margin-top: 760px;
+    margin-top: 710px;
     position: absolute;
     width: 336px;
 }
