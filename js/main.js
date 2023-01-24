@@ -1,7 +1,7 @@
  const mensagem =  document.querySelector(".mensagem");
  const textArea = document.querySelector(".text-area");
  const notification = document.querySelector(".notification");
- const btnCopy = document.querySelector(".btn-copy")
+ const btnCopy = document.querySelector(".btn-copy");
 
 
 function encriptar(stringEncriptada) {
@@ -32,33 +32,47 @@ function descriptar(stringDescriptada) {
     return stringDescriptada;
 }
 
-function handlerBtnDescriptarClick() {
+function handlerBtnDescriptarClick(event) {
 
     const text = descriptar(mensagem.value);
 
-    textArea.value = text;
+    if(text != "") {
+        textArea.value = text;
+    
+        mensagem.value = "";
+        
+        notification.style.display = "block";
+        mensagem.style.backgroundImage = "url(/assets/imageBoneco.svg)";
+        btnCopy.style.display = "none";
+    }
 
-    mensagem.value = "";
 
-    notification.style.display = "block";
-    mensagem.style.backgroundImage = "url(/assets/imageBoneco.svg)";
 
 }
-
 
 function handlerBtnEncriptarClick() {
 
+
     const text = encriptar(textArea.value);
 
-    mensagem.value = text;
+    if(text != "") {
+        mensagem.value = text;
 
-    textArea.value = "";
-
-    notification.style.display = "none";
-    mensagem.style.backgroundImage = "none";
+        textArea.value = "";
+    
+        notification.style.display = "none";
+        mensagem.style.backgroundImage = "none";
+        btnCopy.style.display = "block";
+        console.log(text);
+    }
 
 }
 
+function handlerBtnCopyonKeyDown() {
+    
+    mensagem.select();
+    document.execCommand('copy');
 
+}
 
 console.table();

@@ -2,14 +2,14 @@
 
 :root {
 
---cgd-bg-primary: #e5e5e5;
---cgd-bg-segundary: #D8DFE8;
+--cgd-bg-gray-light: #e5e5e5;
+--cgd-bg-gray-light-2: #D8DFE8;
 
---cgd-font-primary: #0A3871;
---cgd-font-secundary: #343A40;
---cgd-font-tertiary: #495057;
+--cgd-font-blue: #0A3871;
+--cgd-font-gray-dark: #343A40;
+--cgd-font-gray: #495057;
 
---cgd-font-quartenary: #fff;
+--cgd-font-white: #fff;
 
 
 }
@@ -24,12 +24,12 @@
 }
 
 html, body {
-    background-color: var(--cgd-bg-primary);
+    background-color: var(--cgd-bg-gray-light);
 }
 
 .logo-alura {
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 130px;
 }
 
 header {
@@ -41,10 +41,6 @@ header {
     width: 100%;
 }
 
-section {
-    
-}
-
 #grid-layout {
     display: flex;
     width: 100%;
@@ -53,13 +49,14 @@ section {
 }
 
 .container-text {
-   
+    
 }
+
 
 .text-area {
     border: none;
-    background-color: var(--cgd-bg-primary);
-    color: var(--cgd-font-primary);
+    background-color: var(--cgd-bg-gray-light);
+    color: var(--cgd-font-blue);
     margin-top: 90px;
     width: 680px;
     height: 635px;
@@ -68,7 +65,7 @@ section {
 }
 
 ::placeholder {
-    color: var(--cgd-font-primary);
+    color: var(--cgd-font-blue);
     font-size: 32px;
     
 } 
@@ -83,13 +80,13 @@ section {
 
 
 .mensagem {
-    background: var(--cgd-font-quartenary);
+    background: var(--cgd-font-white);
     background-image: url(/assets/imageBoneco.svg);
     background-position:  top 250px center;
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
-    color: var(--cgd-font-tertiary);
+    color: var(--cgd-font-gray);
     margin-left: 98px;
     margin-top: 20px;
     padding: 32px 32px 130px 32px;
@@ -99,12 +96,13 @@ section {
     height: 900px;
     resize: none;
     font-size: 24px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     
 }
 
 .notification {
     position: absolute;
-    background-color: var(--cgd-font-quartenary);
+    background-color: var(--cgd-font-white);
     margin-top: 550px;
     width: 100%;
     max-width: 336px;
@@ -122,42 +120,46 @@ section {
 }
 
 .btn-desencriptar {
-    background: var(--cgd-bg-segundary);
-    border: 1px solid var(--cgd-font-primary);
+    background: var(--cgd-bg-gray-light-2);
+    border: 1px solid var(--cgd-font-blue);
     border-radius: 24px;
-    color: var(--cgd-font-primary);
+    color: var(--cgd-font-blue);
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
     width: 328px;
+    font-size: 16px;
 }
 
 
 .btn-encriptar {
-    background: var(--cgd-font-primary);
-    border: 1px solid var(--cgd-font-primary);
+    background: var(--cgd-font-blue);
+    border: 1px solid var(--cgd-font-blue);
     border-radius: 24px;
-    color: var(--cgd-font-quartenary);
+    color: var(--cgd-font-white);
     cursor: pointer;
     height: 67px;
     width: 328px;
+    font-size: 16px;
 }
 
 .btn-copy {
-    background: var(--cgd-bg-segundary);
-    border: 1px solid var(--cgd-font-primary);
+    display: none;
+    background: var(--cgd-font-white);
+    border: 1px solid var(--cgd-font-blue);
     border-radius: 24px;
-    color: var(--cgd-font-primary);
+    color: var(--cgd-font-blue);
     cursor: pointer;
     height: 67px;
     margin-left: 130px;
     margin-top: 710px;
     position: absolute;
     width: 336px;
+    font-size: 16px;
 }
 
 .info {
-    color: var(--cgd-font-tertiary);
+    color: var(--cgd-font-gray);
     font-size: 18px;
     display: flex;
 }
