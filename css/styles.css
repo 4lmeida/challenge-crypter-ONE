@@ -82,7 +82,7 @@ header {
 .mensagem {
     background: var(--cgd-font-white);
     background-image: url(/assets/imageBoneco.svg);
-    background-position:  top 250px center;
+    background-position:  top 220px center;
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -103,13 +103,24 @@ header {
 .notification {
     position: absolute;
     background-color: var(--cgd-font-white);
-    margin-top: 550px;
+    margin-top: 500px;
     width: 100%;
     max-width: 336px;
     margin-left: 130px;
     text-align: center;
-
  }
+
+ .notification h2 {
+    font-size: 24px;
+    color: var(--cgd-font-gray-dark);
+    margin-bottom: 16px;
+ }
+
+ .notification p {
+    font-size: 16px;
+    color: var(--cgd-font-gray);
+ }
+
 .mensagem:focus {
     outline: none;
 }
