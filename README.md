@@ -24,7 +24,7 @@ desencriptar as palavras escritas.</p>
 
 # Layout ou Deploy da Aplicação :mag_right:
 
-> Link do deploy da aplicação. GitHub Pages:  
+> Link do deploy da aplicação. GitHub Pages: https://4lmeida.github.io/challenge-crypter-ONE/ 
 
 ![](https://github.com/4lmeida/challenge-crypter-ONE/blob/main/assets/crypter.gif)
 
