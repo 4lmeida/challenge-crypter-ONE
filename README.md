@@ -17,7 +17,7 @@ desencriptar as palavras escritas.</p>
 
 # Layout ou Deploy da Aplicação :mag_right:
 
-![]()
+![](https://github.com/4lmeida/challenge-crypter-ONE/blob/main/assets/crypter.gif)
 
 # Autor
 
