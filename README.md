@@ -1,4 +1,11 @@
-#   <h1 align="center">:closed_lock_with_key: Encriptador de texto :page_with_curl:</h1>
+<h1 align="center">:closed_lock_with_key: Encriptador de texto :page_with_curl:</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=GitHub Pages&message=deploy&color=blue&style=for-the-badge&logo=GitHub Pages"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
+
+> Status do Projeto: :heavy_check_mark: :warning: (em desenvolvimento)
 
 # Sobre o projeto :open_file_folder:
 
@@ -16,6 +23,8 @@ desencriptar as palavras escritas.</p>
 :heavy_check_mark: Design Responsivo.
 
 # Layout ou Deploy da Aplicação :mag_right:
+
+> Link do deploy da aplicação. GitHub Pages:  
 
 ![](https://github.com/4lmeida/challenge-crypter-ONE/blob/main/assets/crypter.gif)
 
