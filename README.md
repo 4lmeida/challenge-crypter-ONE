@@ -7,6 +7,14 @@
 
 > Status do Projeto: :heavy_check_mark: :warning: (em desenvolvimento)
 
+### Tópicos 
+
+:small_blue_diamond: [Sobre o projeto](#sobre-o-projeto-open-file-folder)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-layout-mag-right)
+
 # Sobre o projeto :open_file_folder:
 
 O projeto é um desafio para testar os conhecimentos da fase de seleção do curso ONE. 
@@ -22,11 +30,19 @@ desencriptar as palavras escritas.</p>
 
 :heavy_check_mark: Design Responsivo.
 
-# Layout ou Deploy da Aplicação :mag_right:
+# Deploy da Aplicação/Layout :mag_right:
 
 > Link do deploy da aplicação. GitHub Pages: https://4lmeida.github.io/challenge-crypter-ONE/ 
 
 ![](https://github.com/4lmeida/challenge-crypter-ONE/blob/main/assets/crypter.gif)
+
+## Linguagens, dependencias e libs utilizadas :books:
+
+- [Java Script](https://www.javascript.com/)
+
+## Tarefas em aberto
+
+:memo: Responsividade,
 
 # Autor
 
