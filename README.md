@@ -13,7 +13,7 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-layout-mag-right)
+:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-e-layout-mag-right)
 
 # Sobre o projeto :open_file_folder:
 
@@ -30,7 +30,7 @@ desencriptar as palavras escritas.</p>
 
 :heavy_check_mark: Design Responsivo.
 
-# Deploy da Aplicação/Layout :mag_right:
+# Deploy da Aplicação e Layout :mag_right:
 
 > Link do deploy da aplicação. GitHub Pages: https://4lmeida.github.io/challenge-crypter-ONE/ 
 
