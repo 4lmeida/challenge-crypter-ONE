@@ -49,7 +49,7 @@ function handlerBtnDescriptarClick() {
         window.alert("Não há texto para descriptografar");
 
         notification.style.display = "block";
-        mensagem.style.backgroundImage = "url(/assets/imageBoneco.svg)";
+        mensagem.style.backgroundImage = "url('../assets/imageBoneco.svg')";
         btnCopy.style.display = "none";
         textArea.focus();
     }
@@ -83,7 +83,7 @@ function handlerBtnCopyonKeyDown() {
     window.alert("Texto copiado com sucesso, use o atalho CTRL+V no campo \"Digite seu texto\" ");
 
     notification.style.display = "block";
-    mensagem.style.backgroundImage = "url(/assets/imageBoneco.svg)";
+    mensagem.style.backgroundImage = "url('../assets/imageBoneco.svg')";
     btnCopy.style.display = "none";
     textArea.value = "";
     textArea.focus();
