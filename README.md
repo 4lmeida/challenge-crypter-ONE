@@ -9,11 +9,11 @@
 
 ### Tópicos 
 
-:small_blue_diamond: [Sobre o projeto](#sobre-o-projeto)
+:small_blue_diamond: [Sobre o projeto](#sobre-o-projeto-open_file_folder)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-e-layout)
+:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-e-layout-mag_right)
 
 # Sobre o projeto :open_file_folder:
 
