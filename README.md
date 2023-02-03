@@ -38,7 +38,7 @@ desencriptar as palavras escritas.</p>
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- [Java Script](https://www.javascript.com/)
+- [JavaScript](https://www.javascript.com/)
 
 ## Tarefas em aberto
 
