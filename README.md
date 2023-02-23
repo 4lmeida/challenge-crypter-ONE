@@ -17,7 +17,7 @@
 
 # Sobre o projeto :open_file_folder:
 
-O projeto é um desafio para testar os conhecimentos da fase de seleção do curso ONE. 
+O projeto é um desafio para testar os conhecimentos da fase de seleção do programa ONE. 
 
 <p> A aplicação é um encriptador de palavras que substitui as vogais por letras aleatórias, e além de encriptar ela também realiza o processo inverso de 
 desencriptar as palavras escritas.</p>
